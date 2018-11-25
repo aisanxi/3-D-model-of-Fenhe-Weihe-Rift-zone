@@ -1,0 +1,53 @@
+Protocol: itomo_sp_cu_s_2, v1.4.1
+==============================
+ PERIOD= 22 (sec)
+ INFILE=data/dt_1200_175_100_22_10_1.dat
+ OUTFILE=dt_700_60_30
+ model= N 
+ weights= N 
+ den & azim= Y
+ selection= N
+ percent_map= Y
+ rejection= N
+ reject_delta= N
+ residuals= Y
+ geogr-->geoc= Y
+ geoc-->geogr= Y
+ resol. anal. = Y
+ resolution response maps = N
+ Contour file name is: contour.ctr
+ Gaussian cutting acuracy, pow=  8.0
+ Regularization parameter 1 (alpha1) are:  30.0000
+ Regularization parameter 2 (alpha2) are:  700.000
+ Radius of correlation (sigma1) are:   60.000
+ MAX Radius of correlation (sigma2) are:   60.000
+ Limits of latitude:       32.00      43.00  Increment= 0.250 npoints=   45
+ Limits of longitude:     105.00     121.00  Increment= 0.250 npoints=   65
+ Step of integration: 0.1000 (deg)
+=================================================================
+ There were  11182 paths; only   11182 paths left
+ Square root mean velocity=   3.520 (km/sec)
+Input      - <Mon Mar 20 22:10:30 2017>, Duration:  0: 0: 0     0
+ Average square of cells is:     0.0627549360 (deg**2)
+ Average length of cells is:     0.2505093531 (deg)
+ Point outside contour: Lat=   0.000 Lon=    0.000
+Normalization factor :  0.12387
+ Cells:  657368, nm= 2224 nd+1= 332
+ Number of integrals are:  11182
+SQRT of initial residuals dispersion are:     1.725 sec
+SQ_RT of initial velocities dispersion are:   0.04866 km/sec
+Integrals  - <Mon Mar 20 22:10:33 2017>, Duration:  0: 0: 3     3
+ MAXIMUM of asimutal parameter is :   132.157898
+Gauss      - <Mon Mar 20 22:10:49 2017>, Duration:  0: 0:16    16
+    matrix is calculated
+ Maximum intersections/cell are:   4284.7334
+  Trace F/Size     11048.7744
+Matrix condition =    0.442525E-02
+Inresion   - <Mon Mar 20 22:10:51 2017>, Duration:  0: 0: 2     2
+Res_matrix - <Mon Mar 20 22:10:55 2017>, Duration:  0: 0: 4     4
+ Matrix elements= 4946176, Maximal deviation =  0.00133373751
+Res_analys - <Mon Mar 20 22:11:58 2017>, Duration:  0: 1: 3    63
+SQRT of final residuals dispersion are:     0.461 sec
+SQ_RT of final velocities dispersion are:   0.02049 km/sec
+Velocities - <Mon Mar 20 22:11:58 2017>, Duration:  0: 0: 0     0
+ average velocity for %-map dt_700_60_30_22.1_%_ =     3.51854 (km/sec), npoints on a grid=   2669
