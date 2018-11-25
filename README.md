@@ -1,5 +1,5 @@
 # 3-D-model-of-Fenhe-Weihe-Rift-zone
-The digital data
+The digital data are listed as follows:
 1. station.lst contains station distribution information. Every line records station name, longitude, latitude successively.
 2. grid_inv.lst is the grid on which we built the 3-D model. Every line records grid name, longitude, latitude successively.
 3. ph/gp contain the phase and group velocities in files such as dt_700_60_30_10.1, in which 10 denotes the period.
